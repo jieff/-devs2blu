@@ -33,5 +33,6 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 0
+    OnClick = Button1Click
   end
 end

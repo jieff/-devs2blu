@@ -10,6 +10,7 @@ type
   TForm1 = class(TForm)
     Button1: TButton;
     Label1: TLabel;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -22,5 +23,21 @@ var
 implementation
 
 {$R *.dfm}
+
+uses
+    USecoes;
+
+procedure TForm1.Button1Click(Sender: TObject);
+         xCachorro: TCachorro;
+begin
+  xCachorro := TCachorro.Create;
+
+  try
+    xCachorro.MeuSomEh;
+  finally
+    FreeAndNil(xCachorro);
+  end;
+end;
+
 
 end.
