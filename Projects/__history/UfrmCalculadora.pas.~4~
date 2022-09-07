@@ -7,9 +7,6 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TOperadores = (opSomar, opSubtrair, opMultiplicar, opDividir,
-                  opResto, opDivisaoInteira);
-
   TfrmCalculadora = class(TForm)
     Button1: TButton;
     cmbOperador: TComboBox;
@@ -38,19 +35,10 @@ var
   xNumero2: Integer;
   xResultado: Integer;
 begin
-
-
-  try
-     xNumero1 := StrToInt(edtNumerador.text);
-  except
-    on E: Exception do
-    raise Exception.Create('Error Message');
-
-  end;
-
+  xNumero1 := StrToIntDef(edtNumerador.text, 0);
   xNumero2 := StrToIntDef(edtDenominador.text, 0);
 
-  xResultado := 0;   //default clean memory
+  xResultado := 0;
 
   case TOperadores(cmboperador.ItemIndex) of
     opSomar:

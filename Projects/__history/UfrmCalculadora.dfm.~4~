@@ -70,7 +70,7 @@ object frmCalculadora: TfrmCalculadora
     TabOrder = 2
   end
   object edtNumerador: TEdit
-    Left = 223
+    Left = 230
     Top = 104
     Width = 67
     Height = 21
