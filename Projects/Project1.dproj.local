@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/09/05 21:31:15.277,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/05 21:37:13.976,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/09/05 21:37:50.039,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UAnimal.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/09/05 21:38:38.384,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UFrmPrincipal.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/05 21:38:38.384,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UFrmPrincipal.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/05 21:45:24.446,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/05 21:45:45.075,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\USecoes.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/05 21:47:26.756,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2022/09/05 21:31:15.000.277,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/05 21:37:13.000.976,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/05 21:37:50.000.039,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UAnimal.pas</Transaction>
+    <Transaction>2022/09/05 21:38:38.000.384,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UFrmPrincipal.pas</Transaction>
+    <Transaction>2022/09/05 21:38:38.000.384,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/09/05 21:45:24.000.446,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/05 21:45:45.000.075,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\USecoes.pas</Transaction>
+    <Transaction>2022/09/05 21:47:26.000.756,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>

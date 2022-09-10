@@ -24,10 +24,8 @@ implementation
 
 {$R *.dfm}
 
-
-
 uses
-    USecoes, UAnimal;
+    USecoes;
 
 procedure TForm1.Button1Click(Sender: TObject);
          xCachorro: TCachorro;

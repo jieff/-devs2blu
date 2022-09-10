@@ -24,8 +24,6 @@ implementation
 
 {$R *.dfm}
 
-
-
 uses
     USecoes, UAnimal;
 
