@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/12 19:05:40.000.354,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:15:14.000.868,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\ufrmDebugger.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:15:14.000.868,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\ufrmDebugger.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/12 19:17:26.000.515,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:17:56.000.597,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\UCalculadora.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/12 19:59:20.000.206,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project8.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project8.dproj</Transaction>
+    <Transaction>2022/09/12 20:01:25.000.541,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project8.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project8.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
