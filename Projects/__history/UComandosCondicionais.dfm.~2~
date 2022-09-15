@@ -1,0 +1,67 @@
+object frmComandos: TfrmComandos
+  Left = 0
+  Top = 0
+  Caption = 'Comandos Condicionais - IF e CASE'
+  ClientHeight = 287
+  ClientWidth = 545
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 64
+    Top = 32
+    Width = 369
+    Height = 25
+    Caption = 'Comandos Condicionais - IF e CASE'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtPesquisar: TEdit
+    Left = 48
+    Top = 104
+    Width = 209
+    Height = 21
+    TabOrder = 0
+  end
+  object btnIF: TButton
+    Left = 48
+    Top = 144
+    Width = 89
+    Height = 25
+    Caption = 'If'
+    TabOrder = 1
+    OnClick = btnIFClick
+  end
+  object btnCase: TButton
+    Left = 168
+    Top = 144
+    Width = 89
+    Height = 25
+    Caption = 'Case'
+    TabOrder = 2
+    OnClick = btnCaseClick
+  end
+  object rgNivel: TRadioGroup
+    Left = 288
+    Top = 104
+    Width = 225
+    Height = 145
+    Caption = 'N'#237'vel'
+    Items.Strings = (
+      'Estagi'#225'rio'
+      'Junior'
+      'Pleno'
+      'S'#234'nior')
+    TabOrder = 3
+  end
+end

@@ -37,11 +37,11 @@ var
 begin
   mmHistorico.Lines.Clear;
 
-  for I := 1 to Lenght(FDayTemperatures) do
+  for I := 1 to Length(FDayTemperatures) do
   begin
     if FDayTemperatures[I] > 0 then
       mmHistorico.Lines.Add('Dia' + IntToStr(I) +
-                            'fez' + IntToStr(FDayTemperatures) +
+                            'fez' + IntToStr(FDayTemperatures[I]) +
                             'graus.');
 
   end;
