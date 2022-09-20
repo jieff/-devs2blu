@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ActiveControl = btnInteiro
+  Caption = 'Form1'
+  ClientHeight = 330
+  ClientWidth = 457
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblValor: TLabel
+    Left = 64
+    Top = 88
+    Width = 59
+    Height = 13
+    Caption = 'Valor String:'
+  end
+  object lblResultado: TLabel
+    Left = 64
+    Top = 272
+    Width = 48
+    Height = 13
+    Caption = 'Resultado'
+  end
+  object btnInteiro: TButton
+    Left = 64
+    Top = 176
+    Width = 137
+    Height = 25
+    Caption = 'Inteiro'
+    TabOrder = 0
+  end
+  object btnData: TButton
+    Left = 64
+    Top = 216
+    Width = 137
+    Height = 25
+    Caption = 'Data'
+    TabOrder = 1
+  end
+  object btnPontoFlutuante: TButton
+    Left = 232
+    Top = 176
+    Width = 137
+    Height = 25
+    Caption = 'Ponto Flutuante'
+    TabOrder = 2
+  end
+  object btnDataExtenso: TButton
+    Left = 232
+    Top = 216
+    Width = 137
+    Height = 25
+    Caption = 'DataExtenso'
+    TabOrder = 3
+  end
+  object edtValor: TEdit
+    Left = 64
+    Top = 128
+    Width = 305
+    Height = 21
+    TabOrder = 4
+  end
+end

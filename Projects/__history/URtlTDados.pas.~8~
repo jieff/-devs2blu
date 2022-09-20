@@ -1,0 +1,42 @@
+unit URtlTDados;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmRTL = class(TForm)
+    btnInteiro: TButton;
+    btnData: TButton;
+    btnPontoFlutuante: TButton;
+    btnDataExtenso: TButton;
+    lblValor: TLabel;
+    lblResultado: TLabel;
+    edtValor: TEdit;
+    Label1: TLabel;
+    procedure btnInteiroClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRTL: TfrmRTL;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmRTL.btnInteiroClick(Sender: TObject);
+var
+  i : Integer;
+begin
+  i := StrToInt(edtValor.Text);
+  i := i + 10;
+  ShowMessage(i.ToString);
+end;
+
+end.
