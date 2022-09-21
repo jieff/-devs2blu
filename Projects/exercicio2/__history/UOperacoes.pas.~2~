@@ -1,0 +1,32 @@
+unit UOperacoes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmOperacoes = class(TForm)
+    edt1: TEdit;
+    edt2: TEdit;
+    btnOperacoes: TButton;
+    lblSoma: TLabel;
+    lblDivisao: TLabel;
+    lblMultiplicacao: TLabel;
+    lblSubtracao: TLabel;
+    Label1: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmOperacoes: TfrmOperacoes;
+
+implementation
+
+{$R *.dfm}
+
+end.

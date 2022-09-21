@@ -19,6 +19,7 @@ type
     procedure btnInteiroClick(Sender: TObject);
     procedure btnPontoFlutuanteClick(Sender: TObject);
     procedure btnDataClick(Sender: TObject);
+    procedure btnDataExtensoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,6 +39,22 @@ var
 begin
   h:= StrToDate(edtValor.Text)+2;
   lblResultado.Caption := DateToStr(h);
+end;
+
+procedure TfrmRTL.btnDataExtensoClick(Sender: TObject);
+var
+  d: TDate;
+  year, month, day: word;
+begin
+  d:= StrToDate(edtValor.Text);
+
+  d := IncMonth(d);
+  DecodeDate(d, year, month, day);
+
+  lblResultado.Caption := ('Hoje é dia ' + IntToStr(day) + ' de ' + IntToStr(month) + ' de ' + IntToStr(year) );
+
+
+
 end;
 
 procedure TfrmRTL.btnInteiroClick(Sender: TObject);

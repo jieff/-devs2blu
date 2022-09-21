@@ -72,6 +72,7 @@ object frmRTL: TfrmRTL
     Height = 25
     Caption = 'DataExtenso'
     TabOrder = 2
+    OnClick = btnDataExtensoClick
   end
   object edtValor: TEdit
     Left = 40

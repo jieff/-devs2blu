@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/09/19 20:21:39.088,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/19 20:22:34.331,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\URtlTDados.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/19 20:22:34.331,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\URtlTDados.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/19 20:22:38.168,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project16.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project16.dproj</Transaction>
+	<Transactions>
+    <Transaction>2022/09/19 20:21:39.000.088,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/19 20:22:34.000.331,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\URtlTDados.dfm</Transaction>
+    <Transaction>2022/09/19 20:22:34.000.331,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\URtlTDados.pas</Transaction>
+    <Transaction>2022/09/19 20:22:38.000.168,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project16.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project16.dproj</Transaction>
   </Transactions>
 </BorlandProject>

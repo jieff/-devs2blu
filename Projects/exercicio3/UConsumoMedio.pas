@@ -1,0 +1,44 @@
+unit UConsumoMedio;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmConsumo = class(TForm)
+    edt1: TEdit;
+    Label1: TLabel;
+    edt2: TEdit;
+    Label2: TLabel;
+    btnConsumo: TButton;
+    lblResultado: TLabel;
+    Label3: TLabel;
+    procedure btnConsumoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmConsumo: TfrmConsumo;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmConsumo.btnConsumoClick(Sender: TObject);
+var
+  xDistanciaPercorrida, xCombustivelGasto: String;
+  xConsumoMedio: Integer;
+begin
+  xDistanciaPercorrida := edt1.Text;
+  xCombustivelGasto:= edt2.Text;
+
+  xConsumoMedio:= StrToInt(xDistanciaPercorrida) div StrToInt(xCombustivelGasto);
+  lblResultado.Caption:= IntToStr(xConsumoMedio);
+end;
+
+end.

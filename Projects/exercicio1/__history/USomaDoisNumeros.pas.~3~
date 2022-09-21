@@ -1,0 +1,45 @@
+unit USomaDoisNumeros;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmSoma = class(TForm)
+    edt1: TEdit;
+    edt2: TEdit;
+    btnSoma: TButton;
+    Label1: TLabel;
+    lblResultado: TLabel;
+    procedure btnSomaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSoma: TfrmSoma;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TfrmSoma.btnSomaClick(Sender: TObject);
+var
+  xValor1, xValor2, xSoma: String;
+begin
+  xValor1:= edt1.Text;
+  xValor2:= edt2.Text;
+
+  xSoma:= xValor1 + xValor2;
+
+  lblResultado.Caption:= xSoma;
+
+end;
+
+end.
