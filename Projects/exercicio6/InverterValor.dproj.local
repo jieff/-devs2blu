@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/21 20:33:50.000.700,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 20:45:09.000.180,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\exercicio6\uInverterValor.pas</Transaction>
+    <Transaction>2022/09/21 20:45:09.000.180,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\exercicio6\uInverterValor.dfm</Transaction>
+    <Transaction>2022/09/21 20:45:44.000.494,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project17.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\InverterValor.dproj</Transaction>
+    <Transaction>2022/09/21 21:28:45.000.828,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\InverterValor.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\exercicio6\InverterValor.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

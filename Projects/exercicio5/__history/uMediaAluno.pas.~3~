@@ -1,0 +1,53 @@
+unit uMediaAluno;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TfrmMedia = class(TForm)
+    Label1: TLabel;
+    edtNome: TEdit;
+    edtNota1: TEdit;
+    edtNota2: TEdit;
+    edtNota3: TEdit;
+    Panel1: TPanel;
+    btnCalculaMedia: TButton;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    lblNome: TLabel;
+    lblMedia: TLabel;
+    procedure btnCalculaMediaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmMedia: TfrmMedia;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmMedia.btnCalculaMediaClick(Sender: TObject);
+var
+  xNota1, xNota2, xNota3: Integer;
+begin
+  { Pegar o nome do aluno }
+
+   lblNome.Caption:= edtNome.Text;
+
+  { Pegar notas }
+
+  { Calcular a média }
+end;
+
+end.

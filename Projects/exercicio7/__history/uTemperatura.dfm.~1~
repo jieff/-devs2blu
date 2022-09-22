@@ -1,0 +1,57 @@
+object frmTemperatura: TfrmTemperatura
+  Left = 0
+  Top = 0
+  Caption = 'Converte Temperatura'
+  ClientHeight = 281
+  ClientWidth = 418
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 61
+    Width = 33
+    Height = 13
+    Caption = 'Celsius'
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 125
+    Width = 52
+    Height = 13
+    Caption = 'Fahrenheit'
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 24
+    Width = 214
+    Height = 23
+    Caption = 'Converte Temperatura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtC: TEdit
+    Left = 48
+    Top = 80
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edtF: TEdit
+    Left = 48
+    Top = 144
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+end
