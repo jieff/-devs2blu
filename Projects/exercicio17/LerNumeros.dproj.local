@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/09/26 19:07:40.928,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 19:08:18.779,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\exercicio17\uLerNumeros.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/26 19:08:18.779,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\exercicio17\uLerNumeros.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/26 19:08:26.926,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\exercicio17\LerNumeros.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project17.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

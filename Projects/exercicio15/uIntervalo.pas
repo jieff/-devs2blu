@@ -7,10 +7,11 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm1 = class(TForm)
+  TfrmIntervalo = class(TForm)
     edt1: TEdit;
     btnIntervalo: TButton;
     lblResultado: TLabel;
+    Label1: TLabel;
     procedure btnIntervaloClick(Sender: TObject);
   private
     { Private declarations }
@@ -19,20 +20,20 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmIntervalo: TfrmIntervalo;
 
 implementation
 
 {$R *.dfm}
 
 
-procedure TForm1.btnIntervaloClick(Sender: TObject);
+procedure TfrmIntervalo.btnIntervaloClick(Sender: TObject);
 var
   xIntervalo: Integer;
 begin
   xIntervalo:= StrToInt(edt1.Text);
 
-  if xIntervalo > 100 and xIntervalo < 200  then
+  if (xIntervalo > 100) and (xIntervalo < 200)  then
   lblResultado.Caption:= 'Está no intervalo de 100 a 200'
   else
   lblResultado.Caption:= 'Não está no intervalo de 100 a 200';

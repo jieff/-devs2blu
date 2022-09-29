@@ -1,0 +1,42 @@
+unit uLerNumeros;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  value : string;
+
+begin
+  // Keep asking the user for their town
+  repeat
+    value := InputBox('Test program', 'Please type your town', 'Cardiff');
+  until value <> '';
+
+  // Show their name
+  ShowMessage('Your town is '+value);
+end;
+
+
+end.

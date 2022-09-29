@@ -1,0 +1,48 @@
+unit uPositivoNegativo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    btnCapturar: TButton;
+    mem: TMemo;
+    procedure btnCapturarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnCapturarClick(Sender: TObject);
+var value: Integer;
+    AText: String;
+begin
+
+  value := StrToInt(InputBox('Capitura Número', 'Digite o número', ''));
+
+  for value := 0 to mem.Lines.Count -1 do AText := AText + mem.Lines[value];
+
+
+
+  mem.Lines.Add('Option 2');
+  AText := mem.Lines.Text;
+  mem.Text := AText;
+  mem.Lines.Add('--------------------------------------------');
+
+  mem.Lines.Add('Option 3');
+  AText := mem.Text;
+  mem.Text := mem.Text + AText;
+  mem.Lines.Add('--------------------------------------------');
+end;
+end.

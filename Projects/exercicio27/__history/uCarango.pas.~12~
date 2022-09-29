@@ -1,0 +1,57 @@
+unit uCarango;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    rg1: TRadioGroup;
+    btnCalcular: TButton;
+    edt1: TEdit;
+    Label1: TLabel;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnCalcularClick(Sender: TObject);
+var
+  xValor, xDesconto, xPago : Currency;
+  xSair : String;
+begin
+  xValor:= StrToCurr(edt1.Text);
+
+  case rg1.ItemIndex of
+  0:xDesconto:= xValor * 0.25;
+  1:xDesconto:= xValor * 0.21;
+  2:xDesconto:= xValor * 0.14;
+  3:exit();
+  end;
+
+  ShowMessage('O valor do desconto é :'+ CurrToStr(xDesconto) + ', o Valor a ser pago pelo cliente é :' + CurrToStr(xValor));
+
+end;
+
+end.
+
+
+{
+27. A concessionária de veículos “CARANGO” está vendendo os seus veículos com desconto. Faça
+um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente. O
+desconto deverá ser calculado sobre o valor do veículo de acordo com o combustível (álcool – 25%, gasolina – 21% ou diesel –14%).
+Com valor do veículo zero encerra entrada de dados.
+Informe total de desconto e total pago pelos clientes;
+
+}

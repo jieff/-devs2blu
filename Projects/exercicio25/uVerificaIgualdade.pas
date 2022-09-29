@@ -1,0 +1,50 @@
+unit uVerificaIgualdade;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    edt1: TEdit;
+    edt2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Button1: TButton;
+    memo: TMemo;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  xNum1, xNum2 : Integer;
+begin
+  xNum1 := StrToInt(edt1.Text);
+  xNum2 := StrToInt(edt2.Text);
+
+  if xNum1 = xNum2 then
+  memo.Lines.Add('Números são iguais')
+  else
+  memo.Lines.Add('Números são diferentes');
+
+  if xNum1 > xNum2  then
+  memo.Lines.Add('O número 1 é maior que número 2')
+  else
+  memo.Lines.Add('O número 2 é maior que número 1 ');
+
+end;
+
+end.
