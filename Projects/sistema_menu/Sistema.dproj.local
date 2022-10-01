@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/09/30 18:50:33.691,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:53:26.286,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmPrincipal.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 18:53:26.286,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmPrincipal.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:53:33.375,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Sistema.dproj=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\Project17.dproj</Transaction>
+    <Transaction>2022/09/30 18:58:23.537,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 18:58:50.608,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmCliente.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 18:58:50.608,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmCliente.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:03:12.393,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:04:07.257,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmFornecedores.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:04:07.257,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmFornecedores.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 19:04:18.362,=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.pas</Transaction>
+    <Transaction>2022/09/30 19:05:07.848,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmProdutos.dfm=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.dfm</Transaction>
+    <Transaction>2022/09/30 19:05:07.848,C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\uFrmProdutos.pas=C:\Users\jieffn\Documents\Embarcadero\Studio\Projects\sistema_menu\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

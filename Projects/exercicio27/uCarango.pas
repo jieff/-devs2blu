@@ -37,8 +37,9 @@ begin
   0:xDesconto:= xValor * 0.25;
   1:xDesconto:= xValor * 0.21;
   2:xDesconto:= xValor * 0.14;
-  //3:
   end;
+
+
 
   ShowMessage('O valor do desconto é :'+ CurrToStr(xDesconto) + ', o Valor a ser pago pelo cliente é :' + CurrToStr(xValor));
 
